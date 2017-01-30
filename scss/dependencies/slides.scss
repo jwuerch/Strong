@@ -1,0 +1,43 @@
+#slider, .swiper-container, .swiper-wrapper, .swiper-slide {
+  max-height:800px;
+}
+#slide-1 {
+  background-position:0% 0%;
+  background-size:cover;
+  background-repeat:no-repeat;
+  .h-1 {
+    font-size:85px;
+    font-family:$raleway;
+    color:#73A53C;
+    font-weight:400;
+    margin-bottom:0;
+  }
+  .h-2 {
+    font-size:85px;
+    color:#4297AD;
+    font-family:$raleway;
+    font-weight:400;
+    margin-bottom:20px;
+
+  }
+  h3 {
+    font-family: $opensans;
+    font-weight:400;
+    font-size: 50px;
+    color: #444444;
+    letter-spacing: 2.08px;
+    line-height: 61px;
+  }
+  h6 {
+    font-family: $opensans;
+    font-weight:400;
+    font-size: 32px;
+    color: #444444;
+    letter-spacing: 1.5px;
+    line-height: 61px;
+    margin-bottom:0;
+  }
+  .button {
+    margin-top:10px;
+  }
+}
