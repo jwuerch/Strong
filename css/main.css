@@ -26233,12 +26233,18 @@ h4.modal-title {
   background-image: linear-gradient(-180deg, #FFFFFF 0%, #EDEAE8 100%); }
   #meet-the-team-2 h2 {
     margin-bottom: 0; }
+    @media (max-width: 480px) {
+      #meet-the-team-2 h2 {
+        font-size: 26px !important; } }
   #meet-the-team-2 h6 {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #5A5A5A;
     margin-bottom: 40px; }
+    @media (max-width: 480px) {
+      #meet-the-team-2 h6 {
+        font-size: 16px; } }
   #meet-the-team-2 #oc-portfolio img {
     border-radius: 16px; }
   #meet-the-team-2 #oc-portfolio .owl-prev, #meet-the-team-2 #oc-portfolio .owl-next {
@@ -26369,7 +26375,7 @@ p {
   box-shadow: none; }
 
 .button:hover {
-  background: gray; }
+  background: #659135; }
 
 .content-wrap {
   padding: 0; }
