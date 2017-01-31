@@ -25830,10 +25830,19 @@ a.social-icon.si-colored {
 
 /** PHONE SLUG **/
 .phone-slug-1 {
-  background: blue;
-  padding: 20px 0; }
+  width: 100%;
+  background: transparent;
+  position: absolute;
+  z-index: 5;
+  margin-top: -75px; }
   .phone-slug-1 a:hover {
     text-decoration: none; }
+  .phone-slug-1 > .container {
+    background: #FFF;
+    padding: 20px 0;
+    border: 1px solid #000;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.22);
+    border-radius: 25px; }
   .phone-slug-1 .col-1 {
     text-align: right;
     padding-right: 20px; }
@@ -25851,16 +25860,26 @@ a.social-icon.si-colored {
         text-align: center;
         padding: 0; } }
   .phone-slug-1 .new-text {
-    color: red;
-    margin-bottom: 0; }
+    font-family: "Merriweather", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #444444;
+    margin-bottom: -15px;
+    margin-top: -5px; }
   .phone-slug-1 .new-hotline {
-    color: white; }
+    font-family: "Lato", sans-serif, sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #444444; }
   .phone-slug-1 .old-text {
-    color: green;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-family: "Merriweather", sans-serif;
+    font-size: 20px;
+    color: #444444;
+    letter-spacing: 0;
+    line-height: 48px; }
   .phone-slug-1 .old-hotline {
-    color: white;
-    font-weight: 700; }
+    color: #444444; }
 
 /** Contact Modal **/
 .form-error {
@@ -26170,7 +26189,8 @@ p {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   border: none;
-  font-weight: 400; }
+  font-weight: 400;
+  box-shadow: none; }
 
 .button:hover {
   background: gray; }

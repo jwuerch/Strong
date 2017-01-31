@@ -10,8 +10,19 @@ $old-text-hotline-color:white;
   a:hover {
     text-decoration:none;
   }
-  background:blue;
-  padding:20px 0;
+  width:100%;
+  background:transparent;
+  position:absolute;
+  z-index:5;
+  margin-top:-75px;
+  > .container {
+    background:#FFF;
+    padding:20px 0;
+    border:1px solid #000;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.22);
+    border-radius: 25px;
+
+  }
   .col-1 {
     text-align:right;
     padding-right:20px;
@@ -31,18 +42,28 @@ $old-text-hotline-color:white;
     }
   }
   .new-text {
-    color:$new-text-color;
-    margin-bottom:0;
+    font-family: $merriweather;
+    font-weight:400;
+    font-size: 17px;
+    color: #444444;
+    margin-bottom:-15px;
+    margin-top:-5px;
   }
   .new-hotline {
-    color:$new-text-hotline-color;
+    font-family: $lato, sans-serif;
+    font-weight:700;
+    font-size: 42px;
+    color: #444444;
   }
   .old-text {
-    color:$old-text-color;
     margin-bottom:0;
+    font-family: $merriweather;
+    font-size: 20px;
+    color: #444444;
+    letter-spacing: 0;
+    line-height: 48px;
   }
   .old-hotline {
-    color:$old-text-hotline-color;
-    font-weight:700;
+    color:#444444;
   }
 }
