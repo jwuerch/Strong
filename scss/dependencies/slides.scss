@@ -41,4 +41,21 @@
   .button {
     margin-top: 10px;
   }
+
+}
+
+.icon-angle-down {
+  top:-20px;
+  position:absolute;
+  background: #4297AD;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  border-radius:9999px;
+  color:#FFF;
+  width:35px;
+
+  height:35px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
 }
