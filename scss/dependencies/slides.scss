@@ -4,7 +4,7 @@
   background-repeat:no-repeat;
 }
 #slide-1 {
-  background-position: 0% 0%;
+  background-position: 100% 0%;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -28,7 +28,6 @@
     font-weight: 400;
     font-size: 50px;
     color: #444444;
-    letter-spacing: 2.08px;
     line-height: 61px;
   }
   h6 {
@@ -36,12 +35,26 @@
     font-weight: 400;
     font-size: 32px;
     color: #444444;
-    letter-spacing: 1.5px;
     line-height: 61px;
     margin-bottom: 0;
   }
   .button {
     margin-top: 10px;
+  }
+  @media (max-width:1200px) {
+    .h-1 {
+      font-size:72px;
+    }
+    .h-2 {
+      font-size:72px;
+    }
+    h3 {
+      font-size:42px;
+      margin-bottom:10px;
+    }
+    h6 {
+      font-size:28px;
+    }
   }
 
 }
@@ -108,10 +121,12 @@
     .slider-caption {
     }
     h2 {
-      font-size:52px;
+      font-size:44px;
+      margin-bottom:0;
+      line-height:20px;
     }
     h3 {
-      font-size:52px;
+      font-size:44px;
     }
     .p-1 {
       padding-right:150px;

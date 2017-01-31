@@ -18455,6 +18455,9 @@ body:not(.no-transition) #wrapper,
     line-height: 24px;
     font-size: 16px;
     color: #737270; }
+    @media (max-width: 991px) {
+      #services .center p {
+        text-align: left !important; } }
     #services .center p a {
       text-decoration: underline;
       color: #3AA5CB; }
@@ -18489,27 +18492,30 @@ body:not(.no-transition) #wrapper,
   #services-1 .services-below .img-wrap {
     text-align: right; }
 
-#services-2 img {
-  border-radius: 25px;
-  margin: 0 auto;
-  margin-bottom: 30px; }
-
-#services-2 h4 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 38px;
-  color: #575757;
-  font-weight: 400;
-  letter-spacing: 0; }
-  @media (max-width: 767px) {
-    #services-2 h4 {
-      font-size: 24px;
-      margin-bottom: 10px; } }
-
-#services-2 p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  color: #747474;
-  line-height: 24px; }
+#services-2 {
+  padding-top: 40px; }
+  @media (max-width: 1200px) {
+    #services-2 {
+      padding-top: 0; } }
+  #services-2 img {
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-bottom: 30px; }
+  #services-2 h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 38px;
+    color: #575757;
+    font-weight: 400;
+    letter-spacing: 0; }
+    @media (max-width: 767px) {
+      #services-2 h4 {
+        font-size: 24px;
+        margin-bottom: 10px; } }
+  #services-2 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #747474;
+    line-height: 24px; }
 
 .shaded-divider {
   height: 10px;
@@ -26013,6 +26019,9 @@ Copyright (c) 2014 Daniel Eden
       position: absolute;
       right: 0;
       left: inherit; } }
+  @media (max-width: 400px) {
+    #primary-menu-trigger {
+      right: -15px; } }
 
 #logo img {
   padding: 5px 0; }
@@ -26178,7 +26187,7 @@ a.social-icon.si-colored {
       font-size: 16px; } }
 
 #phone-slug-2 {
-  padding-top: 0;
+  padding: 10px 0;
   background: #FFF;
   position: relative;
   background: #FFFFFF;
@@ -26441,7 +26450,7 @@ h4.modal-title {
   background-repeat: no-repeat; }
 
 #slide-1 {
-  background-position: 0% 0%;
+  background-position: 100% 0%;
   background-size: cover;
   background-repeat: no-repeat; }
   #slide-1 .h-1 {
@@ -26461,18 +26470,26 @@ h4.modal-title {
     font-weight: 400;
     font-size: 50px;
     color: #444444;
-    letter-spacing: 2.08px;
     line-height: 61px; }
   #slide-1 h6 {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 32px;
     color: #444444;
-    letter-spacing: 1.5px;
     line-height: 61px;
     margin-bottom: 0; }
   #slide-1 .button {
     margin-top: 10px; }
+  @media (max-width: 1200px) {
+    #slide-1 .h-1 {
+      font-size: 72px; }
+    #slide-1 .h-2 {
+      font-size: 72px; }
+    #slide-1 h3 {
+      font-size: 42px;
+      margin-bottom: 10px; }
+    #slide-1 h6 {
+      font-size: 28px; } }
 
 .icon-angle-down {
   top: -120px;
@@ -26522,9 +26539,11 @@ h4.modal-title {
     color: #656565; }
   @media (max-width: 1200px) {
     #slide-2 h2 {
-      font-size: 52px; }
+      font-size: 44px;
+      margin-bottom: 0;
+      line-height: 20px; }
     #slide-2 h3 {
-      font-size: 52px; }
+      font-size: 44px; }
     #slide-2 .p-1 {
       padding-right: 150px;
       line-height: 28px;
@@ -26914,6 +26933,9 @@ h4.modal-title {
   #reviews h2 {
     font-weight: 400;
     line-height: 50px; }
+    @media (max-width: 480px) {
+      #reviews h2 {
+        line-height: 40px; } }
   #reviews .bf-spn {
     color: #FFF;
     font-family: "Roboto Condensed", sans-serif;
@@ -26932,7 +26954,7 @@ h4.modal-title {
         max-height: 450px !important; } }
     @media (max-width: 480px) {
       #reviews iframe {
-        max-height: 400px !important; } }
+        max-height: 350px !important; } }
 
 body {
   font-family: "Lato", sans-serif;
