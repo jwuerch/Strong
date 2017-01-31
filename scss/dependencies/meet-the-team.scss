@@ -1,0 +1,88 @@
+#meet-the-team {
+  padding:100px 0 264px 0;
+  background-size:cover;
+  background:url('../images/bio.jpg');
+  background-repeat:no-repeat;
+  background-position:0% 0%;
+  h2 {
+    border-bottom:2px solid #979797;
+    padding-bottom:20px;
+    margin-bottom:20px;
+  }
+  p {
+    color:#656565;
+    line-height:28px;
+  }
+  @media (max-width:1200px) {
+    background:#FFF;
+    padding:0;
+    padding-top:30px;
+  }
+}
+.section-divider {
+  padding:70px;
+  background:#FFF;
+  height:100px;
+}
+#meet-the-team-2 {
+  padding:20px 0;
+  background-image: linear-gradient(-180deg, #FFFFFF 0%, #EDEAE8 100%);
+  h2 {
+    margin-bottom:0;
+  }
+  h6 {
+    font-family: $opensans;
+    font-weight:400;
+    font-size: 18px;
+    color: #5A5A5A;
+    margin-bottom:40px;
+  }
+  #oc-portfolio {
+    img {
+      border-radius:16px;
+    }
+    .owl-prev, .owl-next {
+      opacity:1 !important;
+      top:40%;
+      background:#4297AD;
+      color:#FFF;
+      font-weight:400;
+      border:none;
+      display:flex;
+      justify-content:center;
+      align-self:center;
+      align-items:center;
+      font-size:24px;
+      &:hover {
+        background:#3C889C !important;
+      }
+    }
+    .owl-nav {
+      opacity:1 !important;
+      background:#4297AD;
+    }
+    .owl-prev {
+      left:-18px;
+    }
+    .owl-next {
+      right:-18px;
+    }
+    h4 {
+      font-family: $merriweather;
+      font-weight:400;
+      margin-top:20px;
+      font-size: 24px;
+      color: #575757;
+      letter-spacing: 0;
+    }
+  }
+}
+.team-modal {
+  h4 {
+    font-family: $merriweather;
+    font-weight:400;
+    font-size: 24px;
+    color: #575757 !important;
+  }
+
+}

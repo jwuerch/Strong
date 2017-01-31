@@ -22,7 +22,8 @@ $lato: 'Lato', sans-serif;
 @import "dependencies/specials.scss";
 @import "dependencies/location-section.scss";
 @import "dependencies/slides.scss";
-
+@import "dependencies/meet-the-team.scss";
+@import "dependencies/service-modal.scss";
 
 // End Canvas Dependencies //
 
@@ -64,6 +65,7 @@ h6 {
 
 p {
   font-size:18px;
+  font-family:$opensans;
 }
 
 .button {
@@ -86,6 +88,9 @@ p {
 
 section h2 {
   font-size:48px;
+  font-family:$raleway;
+  font-weight:400;
+  color:#4297AD;
   @media (max-width:767px) {
     font-size:40px;
     line-height:50px;

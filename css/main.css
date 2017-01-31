@@ -25837,12 +25837,32 @@ a.social-icon.si-colored {
   margin-top: -75px; }
   .phone-slug-1 a:hover {
     text-decoration: none; }
+  @media (max-width: 991px) {
+    .phone-slug-1 {
+      z-index: initial;
+      position: relative;
+      margin-top: 0; } }
+  @media (max-width: 767px) {
+    .phone-slug-1 {
+      padding: 20px 0 0px 0;
+      background-image: linear-gradient(-180deg, #FFFFFF 0%, #EDEAE8 100%); } }
+  @media (max-width: 480px) {
+    .phone-slug-1 .row {
+      margin: 0; } }
   .phone-slug-1 > .container {
     background: #FFF;
     padding: 20px 0;
     border: 1px solid #000;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.22);
     border-radius: 25px; }
+    @media (max-width: 991px) {
+      .phone-slug-1 > .container {
+        box-shadow: none;
+        border: none; } }
+    @media (max-width: 767px) {
+      .phone-slug-1 > .container {
+        background: none;
+        width: 100%; } }
   .phone-slug-1 .col-1 {
     text-align: right;
     padding-right: 20px; }
@@ -25866,11 +25886,18 @@ a.social-icon.si-colored {
     color: #444444;
     margin-bottom: -15px;
     margin-top: -5px; }
+    @media (max-width: 767px) {
+      .phone-slug-1 .new-text {
+        margin-bottom: -12px; } }
   .phone-slug-1 .new-hotline {
     font-family: "Lato", sans-serif, sans-serif;
     font-weight: 700;
     font-size: 42px;
     color: #444444; }
+    @media (max-width: 480px) {
+      .phone-slug-1 .new-hotline {
+        font-size: 36px;
+        margin: 5px 0; } }
   .phone-slug-1 .old-text {
     margin-bottom: 0;
     font-family: "Merriweather", sans-serif;
@@ -25879,7 +25906,27 @@ a.social-icon.si-colored {
     letter-spacing: 0;
     line-height: 48px; }
   .phone-slug-1 .old-hotline {
-    color: #444444; }
+    color: #444444;
+    position: relative; }
+    @media (max-width: 767px) {
+      .phone-slug-1 .old-hotline {
+        top: -20px; } }
+  @media (max-width: 991px) {
+    .phone-slug-1 .button {
+      max-width: 300px;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      margin-top: 10px; } }
+  @media (max-width: 767px) {
+    .phone-slug-1 .button {
+      margin: 0 auto; } }
+  @media (max-width: 480px) {
+    .phone-slug-1 .button {
+      max-width: 250px;
+      font-size: 16px; } }
 
 /** Contact Modal **/
 .form-error {
@@ -26157,6 +26204,105 @@ h4.modal-title {
   #slide-1 .button {
     margin-top: 10px; }
 
+#meet-the-team {
+  padding: 100px 0 264px 0;
+  background-size: cover;
+  background: url("../images/bio.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 0%; }
+  #meet-the-team h2 {
+    border-bottom: 2px solid #979797;
+    padding-bottom: 20px;
+    margin-bottom: 20px; }
+  #meet-the-team p {
+    color: #656565;
+    line-height: 28px; }
+  @media (max-width: 1200px) {
+    #meet-the-team {
+      background: #FFF;
+      padding: 0;
+      padding-top: 30px; } }
+
+.section-divider {
+  padding: 70px;
+  background: #FFF;
+  height: 100px; }
+
+#meet-the-team-2 {
+  padding: 20px 0;
+  background-image: linear-gradient(-180deg, #FFFFFF 0%, #EDEAE8 100%); }
+  #meet-the-team-2 h2 {
+    margin-bottom: 0; }
+  #meet-the-team-2 h6 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5A5A5A;
+    margin-bottom: 40px; }
+  #meet-the-team-2 #oc-portfolio img {
+    border-radius: 16px; }
+  #meet-the-team-2 #oc-portfolio .owl-prev, #meet-the-team-2 #oc-portfolio .owl-next {
+    opacity: 1 !important;
+    top: 40%;
+    background: #4297AD;
+    color: #FFF;
+    font-weight: 400;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    font-size: 24px; }
+    #meet-the-team-2 #oc-portfolio .owl-prev:hover, #meet-the-team-2 #oc-portfolio .owl-next:hover {
+      background: #3C889C !important; }
+  #meet-the-team-2 #oc-portfolio .owl-nav {
+    opacity: 1 !important;
+    background: #4297AD; }
+  #meet-the-team-2 #oc-portfolio .owl-prev {
+    left: -18px; }
+  #meet-the-team-2 #oc-portfolio .owl-next {
+    right: -18px; }
+  #meet-the-team-2 #oc-portfolio h4 {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #575757;
+    letter-spacing: 0; }
+
+.team-modal h4 {
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #575757 !important; }
+
+/* Service Modals */
+#services a:hover {
+  text-decoration: none; }
+
+.service-modal .modal-body, .service-modal .modal-header {
+  background: #FFF; }
+
+.service-modal h4 {
+  color: #768E44; }
+
+.service-modal .modal-header {
+  border-radius: 3px 3px 0px 0px; }
+
+.service-modal .modal-body {
+  border-radius: 0px 0px 3px 3px; }
+
+.service-modal-text p {
+  line-height: 25px;
+  font-size: 16px;
+  margin-bottom: 15px; }
+
+.service-modal img {
+  margin-bottom: 10px; }
+
+.service-modal .img-wrap {
+  text-align: center; }
+
 body {
   font-family: "Lato", sans-serif;
   font-size: 16px; }
@@ -26180,7 +26326,8 @@ h6 {
   font-size: 20px; }
 
 p {
-  font-size: 18px; }
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif; }
 
 .button {
   background: #73A53C;
@@ -26199,7 +26346,10 @@ p {
   padding: 0; }
 
 section h2 {
-  font-size: 48px; }
+  font-size: 48px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #4297AD; }
   @media (max-width: 767px) {
     section h2 {
       font-size: 40px;
