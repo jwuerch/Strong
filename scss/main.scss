@@ -7,6 +7,8 @@ $raleway: 'Raleway', sans-serif;
 $merriweather: 'Merriweather', sans-serif;
 $opensans: 'Open Sans', sans-serif;
 $lato: 'Lato', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+$josefin: 'Josefin', sans-serif;
 // Canvas Dependencies //
 
 @import "dependencies/bootstrap.scss";
@@ -19,12 +21,12 @@ $lato: 'Lato', sans-serif;
 @import "dependencies/footer.scss";
 @import "dependencies/phone-slug.scss";
 @import "dependencies/contact-modal.scss";
-@import "dependencies/specials.scss";
 @import "dependencies/location-section.scss";
 @import "dependencies/slides.scss";
 @import "dependencies/meet-the-team.scss";
 @import "dependencies/service-modal.scss";
 @import "dependencies/video.scss";
+@import "dependencies/specials.scss";
 
 // End Canvas Dependencies //
 
