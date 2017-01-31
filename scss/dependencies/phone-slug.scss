@@ -121,3 +121,18 @@ $old-text-hotline-color:white;
     }
   }
 }
+#phone-slug-2 {
+  padding-top:0;
+  background:#FFF;
+  position:relative;
+  background: #FFFFFF;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.22);
+  .col-2 {
+    border-left:0;
+  }
+  > .container {
+    border:none;
+    position:relative;
+    box-shadow:none;
+  }
+}
