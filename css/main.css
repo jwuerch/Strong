@@ -18445,11 +18445,10 @@ body:not(.no-transition) #wrapper,
   padding: 0 !important; }
 
 #services {
-  background-image: linear-gradient(-180deg, #FFFFFF 0%, #EDEAE8 100%);
+  background: #FFF;
   padding: 30px 0;
-  background: url("../images/services/cosmetic.png");
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: 100% 100%; }
   #services .center p {
     font-family: "Open Sans", sans-serif;
     line-height: 24px;
@@ -18458,6 +18457,196 @@ body:not(.no-transition) #wrapper,
     #services .center p a {
       text-decoration: underline;
       color: #3AA5CB; }
+
+#services-1 {
+  background-image: linear-gradient(-180deg, #FFFFFF 0%, #EDEAE8 100%);
+  background: url("../images/services/cosmetic.png");
+  background-size: contain;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 100px 0; }
+  @media (max-width: 1200px) {
+    #services-1 {
+      background: none;
+      padding-top: 0;
+      padding-bottom: 50px; } }
+  #services-1 h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 38px;
+    color: #575757;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-bottom: 20px; }
+    @media (max-width: 767px) {
+      #services-1 h4 {
+        font-size: 24px; } }
+  #services-1 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #717171;
+    line-height: 24px; }
+  #services-1 .services-below .img-wrap {
+    text-align: right; }
+
+#services-2 img {
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+
+#services-2 h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 38px;
+  color: #575757;
+  font-weight: 400;
+  letter-spacing: 0; }
+  @media (max-width: 767px) {
+    #services-2 h4 {
+      font-size: 24px;
+      margin-bottom: 10px; } }
+
+#services-2 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #747474;
+  line-height: 24px; }
+
+.shaded-divider {
+  height: 10px;
+  background-image: url("../images/shaded-divider.png");
+  background-size: cover;
+  width: 100%; }
+  @media (max-width: 480px) {
+    .shaded-divider {
+      background-size: contain; } }
+
+#services-3 {
+  padding: 40px 0; }
+  #services-3 h2 {
+    margin-bottom: 20px; }
+  #services-3 .center p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #737270; }
+    @media (max-width: 480px) {
+      #services-3 .center p {
+        font-size: 16px; } }
+  #services-3 #oc-portfolio2 img {
+    border-radius: 16px;
+    margin-bottom: 20px; }
+  #services-3 #oc-portfolio2 h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #575757;
+    letter-spacing: 0; }
+  #services-3 #oc-portfolio2 .owl-prev, #services-3 #oc-portfolio2 .owl-next {
+    opacity: 1 !important;
+    top: 40%;
+    background: #73A53C;
+    color: #FFF;
+    font-weight: 400;
+    border: 2px solid #FFF; }
+    #services-3 #oc-portfolio2 .owl-prev:hover, #services-3 #oc-portfolio2 .owl-next:hover {
+      background: #659135 !important; }
+    @media (max-width: 1200px) {
+      #services-3 #oc-portfolio2 .owl-prev, #services-3 #oc-portfolio2 .owl-next {
+        top: 35%; } }
+    @media (max-width: 991px) {
+      #services-3 #oc-portfolio2 .owl-prev, #services-3 #oc-portfolio2 .owl-next {
+        top: 40%; } }
+    @media (max-width: 767px) {
+      #services-3 #oc-portfolio2 .owl-prev, #services-3 #oc-portfolio2 .owl-next {
+        top: 30%; } }
+    @media (max-width: 480px) {
+      #services-3 #oc-portfolio2 .owl-prev, #services-3 #oc-portfolio2 .owl-next {
+        top: 40%; } }
+  #services-3 #oc-portfolio2 .owl-prev {
+    left: -18px; }
+  #services-3 #oc-portfolio2 .owl-next {
+    right: -18px; }
+
+.patient-forms {
+  background-image: linear-gradient(-180deg, #FFFFFF 0%, #EDEAE8 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 45px; }
+  .patient-forms .container {
+    border: 1px solid #5F5B4A;
+    border-radius: 24px;
+    background: #FFF;
+    padding: 20px 20px 40px 20px; }
+  .patient-forms h2 {
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    color: #3CA6CC;
+    letter-spacing: 0;
+    line-height: 55px; }
+    @media (max-width: 767px) {
+      .patient-forms h2 {
+        font-size: 30px;
+        line-height: 40px; } }
+  .patient-forms p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #737270;
+    line-height: 24px !important; }
+    @media (max-width: 767px) {
+      .patient-forms p {
+        font-size: 16px;
+        line-height: 22px !important; } }
+  .patient-forms .col-1, .patient-forms .col-2, .patient-forms .col-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    @media (max-width: 767px) {
+      .patient-forms .col-1, .patient-forms .col-2, .patient-forms .col-3 {
+        margin-bottom: 20px; } }
+    .patient-forms .col-1 .button, .patient-forms .col-2 .button, .patient-forms .col-3 .button {
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      @media (max-width: 1200px) {
+        .patient-forms .col-1 .button, .patient-forms .col-2 .button, .patient-forms .col-3 .button {
+          width: 90%; } }
+      @media (max-width: 991px) {
+        .patient-forms .col-1 .button, .patient-forms .col-2 .button, .patient-forms .col-3 .button {
+          width: 100%; } }
+      @media (max-width: 767px) {
+        .patient-forms .col-1 .button, .patient-forms .col-2 .button, .patient-forms .col-3 .button {
+          width: 75%;
+          font-size: 16px; } }
+      @media (max-width: 480px) {
+        .patient-forms .col-1 .button, .patient-forms .col-2 .button, .patient-forms .col-3 .button {
+          width: 90%; } }
+    .patient-forms .col-1 .btn-1, .patient-forms .col-2 .btn-1, .patient-forms .col-3 .btn-1 {
+      margin-bottom: 25px; }
+      @media (max-width: 767px) {
+        .patient-forms .col-1 .btn-1, .patient-forms .col-2 .btn-1, .patient-forms .col-3 .btn-1 {
+          margin-bottom: 5px; } }
+
+.care-credit {
+  background: #E2F4FA;
+  padding: 20px 0; }
+  .care-credit .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center; }
+    .care-credit .container h6 {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0;
+      align-self: center;
+      font-family: "Lato", sans-serif;
+      font-size: 24px;
+      color: #585756;
+      font-weight: 400;
+      letter-spacing: -0.34px; }
 
 /**
  * Swiper 3.3.1
@@ -25768,11 +25957,9 @@ Copyright (c) 2014 Daniel Eden
   color: black;
   font-weight: 400;
   font-size: 16px; }
-  @media (max-width: 1200px) {
+  @media (max-width: 1100px) {
     #primary-menu > ul > li a {
-      font-size: 16px;
-      padding-left: 10px;
-      padding-right: 10px; } }
+      font-size: 14px; } }
 
 #primary-menu > ul > li .nav-1 {
   color: #218AAE; }
@@ -25796,6 +25983,14 @@ Copyright (c) 2014 Daniel Eden
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
   padding-top: 38px;
   padding-bottom: 38px; }
+  @media (max-width: 1200px) {
+    #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+      padding-left: 10px;
+      padding-right: 10px; } }
+  @media (max-width: 1100px) {
+    #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+      padding-left: 8px;
+      padding-right: 8px; } }
 
 #primary-menu-trigger {
   font-size: 25px; }
@@ -25809,12 +26004,14 @@ Copyright (c) 2014 Daniel Eden
   padding: 2.5px 0; }
   @media (max-width: 480px) {
     #logo img {
-      padding: 10px 0; } }
+      padding-left: 10px;
+      padding-right: 10px; } }
 
-body.stretched #header.full-header .container {
-  width: 95% !important;
-  margin: 0;
-  flex-direction: row; }
+@media (max-width: 480px) {
+  body.stretched #header.full-header .container {
+    width: 95% !important;
+    margin: 0;
+    flex-direction: row; } }
 
 @media (max-width: 480px) {
   #header.full-header #logo {
@@ -26541,6 +26738,22 @@ p {
 
 .button:hover {
   background: #659135; }
+
+.button-2 {
+  border: 2px solid #3CA6CC;
+  border-radius: 10px;
+  background: none;
+  color: #3CA6CC; }
+  .button-2:hover {
+    background: #FFF;
+    color: #3CA6CC;
+    text-shadow: none; }
+  @media (max-width: 1200px) {
+    .button-2 {
+      font-size: 16px; } }
+  @media (max-width: 991px) {
+    .button-2 {
+      font-size: 15px; } }
 
 .content-wrap {
   padding: 0; }

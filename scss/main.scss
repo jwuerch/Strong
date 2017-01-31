@@ -91,6 +91,24 @@ p {
 .button:hover {
   background:#659135;
 }
+.button-2 {
+  border: 2px solid #3CA6CC;
+  border-radius: 10px;
+  background:none;
+  color:#3CA6CC;
+  &:hover {
+    background:#FFF;
+    color:#3CA6CC;
+    text-shadow:none;
+  }
+  @media (max-width:1200px) {
+    font-size:16px;
+  }
+  @media (max-width:991px) {
+    font-size:15px;
+  }
+
+}
 .content-wrap {
   padding:0;
 }
