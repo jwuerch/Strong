@@ -26303,6 +26303,35 @@ h4.modal-title {
 .service-modal .img-wrap {
   text-align: center; }
 
+#video {
+  border-bottom: 7px solid #FFF;
+  padding: 60px 0 350px 0;
+  background: url("../images/video-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 0%; }
+  @media (max-width: 1200px) {
+    #video {
+      background: #FFF;
+      padding: 0; } }
+  @media (max-width: 1200px) {
+    #video .video-wrap {
+      max-width: 75%;
+      margin: 0 auto; } }
+  @media (max-width: 991px) {
+    #video .video-wrap {
+      max-width: 85%; } }
+  @media (max-width: 767px) {
+    #video .video-wrap {
+      max-width: 100%; } }
+  #video h2 {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    @media (max-width: 767px) {
+      #video h2 {
+        margin-top: 30px;
+        margin-bottom: 30px; } }
+
 body {
   font-family: "Lato", sans-serif;
   font-size: 16px; }

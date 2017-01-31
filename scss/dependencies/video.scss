@@ -1,0 +1,33 @@
+#video {
+  border-bottom:7px solid #FFF;
+  padding:60px 0 350px 0;
+  background:url('../images/video-bg.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:100% 0%;
+  @media (max-width:1200px) {
+    background:#FFF;
+    padding:0;
+  }
+  .video-wrap {
+    @media (max-width:1200px) {
+      max-width:75%;
+      margin:0 auto;
+    }
+    @media (max-width:991px) {
+      max-width:85%;
+    }
+    @media (max-width:767px) {
+      max-width:100%;
+    }
+
+  }
+  h2 {
+    margin-top:50px;
+    margin-bottom:50px;
+    @media (max-width:767px) {
+      margin-top:30px;
+      margin-bottom:30px;
+    }
+  }
+}
