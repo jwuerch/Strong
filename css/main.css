@@ -18464,11 +18464,13 @@ body:not(.no-transition) #wrapper,
 
 #services-1 {
   background-image: linear-gradient(-180deg, #FFFFFF 0%, #EDEAE8 100%);
-  background: url("../images/services/cosmetic.png");
   background-size: contain;
   background-position: 100% 100%;
   background-repeat: no-repeat;
-  padding: 100px 0; }
+  padding: 100px 0;
+  padding-bottom: 0; }
+  #services-1 img {
+    width: 100%; }
   @media (max-width: 1200px) {
     #services-1 {
       background: none;
@@ -26453,28 +26455,32 @@ h4.modal-title {
   background-position: 100% 0%;
   background-size: cover;
   background-repeat: no-repeat; }
+  #slide-1 .slider-caption {
+    margin-top: -20px; }
   #slide-1 .h-1 {
-    font-size: 85px;
+    font-size: 65px;
     font-family: "Raleway", sans-serif;
     color: #73A53C;
     font-weight: 400;
     margin-bottom: 0; }
   #slide-1 .h-2 {
-    font-size: 85px;
+    font-size: 65px;
     color: #4297AD;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
+    margin-top: -5px;
     margin-bottom: 20px; }
   #slide-1 h3 {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 46px;
     color: #444444;
-    line-height: 61px; }
+    line-height: 55px;
+    margin-bottom: 30px; }
   #slide-1 h6 {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     color: #444444;
     line-height: 61px;
     margin-bottom: 0; }
@@ -26482,9 +26488,9 @@ h4.modal-title {
     margin-top: 10px; }
   @media (max-width: 1200px) {
     #slide-1 .h-1 {
-      font-size: 72px; }
+      font-size: 55px; }
     #slide-1 .h-2 {
-      font-size: 72px; }
+      font-size: 55px; }
     #slide-1 h3 {
       font-size: 42px;
       margin-bottom: 10px; }
@@ -26505,14 +26511,16 @@ h4.modal-title {
   align-items: center; }
 
 #slide-2 {
-  background-position: 100% 0%; }
+  background-position: 100% 10%; }
+  #slide-2 .slider-caption {
+    margin-top: -20px; }
   #slide-2 h2, #slide-2 h3 {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 59.63px;
     color: #73A53C;
     letter-spacing: -0.63px;
-    line-height: 81.47px; }
+    line-height: 55px; }
   #slide-2 h3 {
     color: #3A9CBD;
     margin-bottom: 10px; }
@@ -26553,7 +26561,8 @@ h4.modal-title {
       margin-bottom: 30px; } }
 
 #slide-3 {
-  background-position-x: 100%; }
+  background-position-x: 100%;
+  background-position-y: 100%; }
   @media (max-width: 1200px) {
     #slide-3 .slider-caption {
       margin-top: -200px; } }
@@ -26568,7 +26577,9 @@ h4.modal-title {
     font-size: 36px;
     color: #3AA5CB;
     letter-spacing: -0.26px;
-    line-height: 35.09px; }
+    line-height: 25.09px;
+    margin-top: -5px;
+    margin-bottom: 50px; }
   #slide-3 h4 {
     font-family: "Open Sans", sans-serif;
     font-size: 37px;
@@ -26769,8 +26780,11 @@ h4.modal-title {
   background-position: 100% 0%; }
   @media (max-width: 1200px) {
     #video {
-      background: #FFF;
-      padding: 0; } }
+      background: url("../images/video-moble-bkgd.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 0;
+      padding-bottom: 60px; } }
   @media (max-width: 1200px) {
     #video .video-wrap {
       max-width: 75%;
@@ -26985,7 +26999,6 @@ p {
 .button {
   background: #73A53C;
   border-radius: 100px;
-  padding-top: 2px;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   border: none;

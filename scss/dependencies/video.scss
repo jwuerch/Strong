@@ -6,8 +6,11 @@
   background-repeat:no-repeat;
   background-position:100% 0%;
   @media (max-width:1200px) {
-    background:#FFF;
+    background:url('../images/video-moble-bkgd.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
     padding:0;
+    padding-bottom:60px;
   }
   .video-wrap {
     @media (max-width:1200px) {
