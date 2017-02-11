@@ -26343,14 +26343,16 @@ h4.modal-title {
     #contact-footer .col-3 .hours {
       width: 50%; }
       #contact-footer .col-3 .hours p {
-        text-align: left; }
+        text-align: left;
+        margin-bottom: 5px; }
     #contact-footer .col-3 .hours p, #contact-footer .col-3 .days p {
       margin-bottom: 0;
       font-family: "Open Sans", sans-serif;
       font-size: 18px;
       font-weight: 400;
       color: #222222;
-      letter-spacing: 0; }
+      letter-spacing: 0;
+      line-height: 18px; }
       @media (max-width: 1200px) {
         #contact-footer .col-3 .hours p, #contact-footer .col-3 .days p {
           font-size: 15px; } }
@@ -26445,6 +26447,20 @@ h4.modal-title {
     color: #FFFFFF;
     letter-spacing: 0;
     line-height: 25px; }
+
+.col-y p, .col-z p {
+  line-height: 20px;
+  margin-bottom: 0;
+  font-size: 16px; }
+  @media (max-width: 400px) {
+    .col-y p, .col-z p {
+      font-size: 14px; } }
+
+div.col-z > p:nth-child(5) {
+  width: 120%; }
+  @media (max-width: 400px) {
+    div.col-z > p:nth-child(5) {
+      width: 100%; } }
 
 #slider, .swiper-container, .swiper-wrapper, .swiper-slide {
   max-height: 800px;
@@ -26736,6 +26752,9 @@ h4.modal-title {
   font-weight: 400;
   font-size: 24px;
   color: #575757 !important; }
+
+.team-bottom img {
+  width: 100%; }
 
 /* Service Modals */
 #services a:hover {
